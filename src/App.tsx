@@ -207,6 +207,10 @@ function App() {
           <div className="glass-card contact-card reveal">
             <h2>Get In <span className="text-accent">Touch</span></h2>
             <p>I'm currently looking for new opportunities. Whether you have a question or just want to say hi, my inbox is always open!</p>
+            <div className="contact-info" style={{ marginBottom: '2rem', display: 'flex', flexDirection: 'column', gap: '0.5rem', fontFamily: "'Fira Code', monospace" }}>
+              <a href="mailto:ranathungakalana8@gmail.com" style={{ color: 'var(--text-primary)', textDecoration: 'none', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '10px' }}><i className='bx bx-envelope'></i> ranathungakalana8@gmail.com</a>
+              <a href="https://wa.me/94764249952" style={{ color: 'var(--text-primary)', textDecoration: 'none', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '10px' }}><i className='bx bx-phone'></i> +94 76 424 9952</a>
+            </div>
             <div className="contact-buttons">
               <a href="mailto:ranathungakalana8@gmail.com" className="btn-primary">Say Hello <i className='bx bxs-paper-plane'></i></a>
               <div className="contact-socials">
